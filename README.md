@@ -36,6 +36,56 @@ Achieved ~85% validation accuracy with strong generalization performance.
   - Improved stability on minority defect classes  
 - **Evaluation Tools**: Accuracy/Loss curves, confusion matrices, and classification reports  
 
+##🚀 How to Run / Usage
+
+##⚠️ Full implementation is not shared due to dataset and IP sensitivity.
+Instead, the workflow is summarized below:
+
+Data Preparation
+
+Extract wafer maps and resize to a consistent shape (e.g., 64×64).
+
+Normalize pixel intensities.
+
+Encode defect categories as integer labels.
+
+Model Architecture
+
+CNN with stacked Conv2D → BatchNorm → Pooling layers.
+
+Dense layers with dropout for generalization.
+
+Softmax output for multi-class classification.
+
+## (Pseudocode)
+
+model = Sequential([
+    Conv2D(...), BatchNormalization(), MaxPooling2D(...),
+    Conv2D(...), BatchNormalization(), GlobalAveragePooling2D(),
+    Dense(..., activation="relu"), Dropout(0.5),
+    Dense(num_classes, activation="softmax")
+])
+
+
+Training Strategy
+
+Baseline: Train/Validation split with data augmentation.
+
+Robust: Stratified K-Fold Cross Validation.
+
+Optimizer: Adam (tuned LR).
+
+Loss: Categorical cross-entropy with class weights to handle imbalance.
+
+EarlyStopping + ModelCheckpoint for best model retention.
+
+Evaluation
+
+Monitor training/validation accuracy & loss.
+
+Generate classification report & confusion matrix.
+
+Compare fold results for stability and generalization.
 
 ## 📊 Results & Insights
 Training Curves
