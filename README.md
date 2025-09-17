@@ -19,6 +19,13 @@ Applied class balancing strategies (weighted loss, smoothing) to address dataset
 
 Achieved ~85% validation accuracy with strong generalization performance.
 
+## Gallaries
+<img width="855" height="451" alt="download" src="https://github.com/user-attachments/assets/e89a0a9e-d2b6-48d7-be3f-fe73e699c211" />
+<img width="1001" height="375" alt="download" src="https://github.com/user-attachments/assets/629ba103-e71b-4be0-bc63-f4ac8749a88f" />
+<img width="797" height="701" alt="download" src="https://github.com/user-attachments/assets/9f97b2a1-9766-485a-a2dd-e3af3cff3e74" />
+<img width="1156" height="470" alt="download" src="https://github.com/user-attachments/assets/f1e4d672-cd57-4c0b-84c6-7fed5e59b62b" />
+<img width="1189" height="1490" alt="download" src="https://github.com/user-attachments/assets/33509e5e-2127-46e5-818b-918bf67ab339" />
+
 ## 🔑 Key Highlights
 
 - **Dataset**: WM-811k (semiconductor wafer map defect dataset)  
