@@ -36,9 +36,9 @@ Achieved ~85% validation accuracy with strong generalization performance.
   - Improved stability on minority defect classes  
 - **Evaluation Tools**: Accuracy/Loss curves, confusion matrices, and classification reports  
 
-##🚀 How to Run / Usage
+## 🚀 How to Run / Usage
 
-##⚠️ Full implementation is not shared due to dataset and IP sensitivity.
+## ⚠️ Full implementation is not shared due to dataset and IP sensitivity.
 Instead, the workflow is summarized below:
 
 Data Preparation
@@ -57,8 +57,7 @@ Dense layers with dropout for generalization.
 
 Softmax output for multi-class classification.
 
-## (Pseudocode)
-
+# (Pseudocode)
 model = Sequential([
     Conv2D(...), BatchNormalization(), MaxPooling2D(...),
     Conv2D(...), BatchNormalization(), GlobalAveragePooling2D(),
@@ -66,8 +65,7 @@ model = Sequential([
     Dense(num_classes, activation="softmax")
 ])
 
-
-Training Strategy
+## Training Strategy
 
 Baseline: Train/Validation split with data augmentation.
 
