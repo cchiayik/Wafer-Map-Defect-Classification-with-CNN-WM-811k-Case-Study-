@@ -1,5 +1,5 @@
-🧠 Wafer Map Defect Classification with CNN (WM-811k Case Study)
-📌 Project Overview
+# 🧠 Wafer Map Defect Classification with CNN (WM-811k Case Study)
+# 📌 Project Overview
 
 This project explores the use of Convolutional Neural Networks (CNNs) for semiconductor wafer defect pattern classification using the WM-811k dataset.
 
@@ -44,7 +44,7 @@ Libraries: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
 
 Environment: Kaggle GPU runtime
 
-📈 Recommendations
+#📈 Recommendations
 
 Data Augmentation: Improve representation of rare defect types.
 
@@ -52,7 +52,7 @@ Advanced Architectures: Experiment with ResNet/EfficientNet for feature robustne
 
 Deployment Potential: This pipeline could be extended into a real-time wafer inspection system in an industrial setting.
 
-📌 Disclaimer
+#📌 Disclaimer
 
 This project is a case study for learning and demonstration purposes only.
 
