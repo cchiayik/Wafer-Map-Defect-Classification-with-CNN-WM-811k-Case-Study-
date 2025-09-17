@@ -133,6 +133,26 @@ The dataset originates from the publicly available WM-811k dataset.
 
 Full code is not released due to industrial sensitivity and potential IP considerations.
 
-## ✍️ Author
+## 📖 Repository Contents
+- `README.md` → Project summary (this file)  
+- `pseudocode.md` → Step-by-step workflow without exposing full code  
+- `results/` → Key visual outputs (graphs, heatmaps, sample wafer maps)  
 
-Developed by Chew Chia Yik — Chemical Engineering graduate exploring Machine Learning applications in semiconductor manufacturing.
+---
+
+## ⚠️ Note
+The **full dataset and source code are not shared** due to confidentiality and intellectual property considerations.  
+This repository serves as a **portfolio case study** to demonstrate applied ML methodology in semiconductor manufacturing.
+
+---
+
+## 🌐 Industry 4.0 Relevance
+- ✅ AI-driven **quality control**  
+- ✅ **Big Data + Deep Learning** for manufacturing analytics  
+- ✅ **Automation** of defect classification  
+- ✅ Supports **yield improvement** and **predictive maintenance**
+
+---
+
+👨‍💻 Author: Chew Chia Yik  
+🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/chew-chia-yik/)  
