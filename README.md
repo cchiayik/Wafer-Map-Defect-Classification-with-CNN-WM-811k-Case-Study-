@@ -5,7 +5,7 @@ This project explores the use of Convolutional Neural Networks (CNNs) for semico
 
 Defect pattern recognition is critical in semiconductor manufacturing for improving yield analysis and fault detection. By leveraging deep learning, we aim to automatically classify wafer maps into multiple defect categories, reducing reliance on manual inspection.
 
-⚡ Key Features
+##⚡ Key Features
 
 Built with TensorFlow/Keras in Python (experimented on Kaggle).
 
@@ -19,7 +19,25 @@ Applied class balancing strategies (weighted loss, smoothing) to address dataset
 
 Achieved ~85% validation accuracy with strong generalization performance.
 
-📊 Results & Insights
+## 🔑 Key Highlights
+
+- **Dataset**: WM-811k (semiconductor wafer map defect dataset)  
+- **Approach**: Convolutional Neural Network (CNN) implemented in Keras/TensorFlow  
+- **Pipelines**:  
+  - Hold-out validation (train/test split)  
+  - 5-Fold Cross Validation for robustness  
+- **Techniques Used**:  
+  - Class balancing with smoothed weights  
+  - Data augmentation for generalization  
+  - Early stopping to prevent overfitting  
+- **Performance**:  
+  - ~85% accuracy across folds  
+  - Strong classification on majority classes  
+  - Improved stability on minority defect classes  
+- **Evaluation Tools**: Accuracy/Loss curves, confusion matrices, and classification reports  
+
+
+## 📊 Results & Insights
 Training Curves
 
 Training accuracy steadily improves, with validation accuracy stabilizing around 85%.
@@ -34,7 +52,7 @@ Minor classes like Random, Scratch, and Near-Full show higher misclassification 
 
 Future work: Data augmentation and rebalancing techniques may further improve rare class recognition.
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Languages: Python
 
@@ -44,7 +62,7 @@ Libraries: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
 
 Environment: Kaggle GPU runtime
 
-#📈 Recommendations
+## 📈 Recommendations
 
 Data Augmentation: Improve representation of rare defect types.
 
@@ -52,7 +70,7 @@ Advanced Architectures: Experiment with ResNet/EfficientNet for feature robustne
 
 Deployment Potential: This pipeline could be extended into a real-time wafer inspection system in an industrial setting.
 
-#📌 Disclaimer
+## 📌 Disclaimer
 
 This project is a case study for learning and demonstration purposes only.
 
@@ -60,6 +78,6 @@ The dataset originates from the publicly available WM-811k dataset.
 
 Full code is not released due to industrial sensitivity and potential IP considerations.
 
-✍️ Author
+## ✍️ Author
 
-Developed by [Your Name] — Chemical Engineering graduate exploring Machine Learning applications in semiconductor manufacturing.
+Developed by Chew Chia Yik — Chemical Engineering graduate exploring Machine Learning applications in semiconductor manufacturing.
