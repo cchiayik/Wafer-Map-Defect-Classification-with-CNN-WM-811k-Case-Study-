@@ -1,64 +1,80 @@
-## Pseudocode: Wafer Defect Detection using CNN
-
-## 1 Problem Statement
-Classify semiconductor wafer maps into defect categories to support **yield improvement**  
-and **smart manufacturing (IR4.0)** quality control.
+# 📘 Pseudocode: Wafer Defect Detection using CNN
 
 ---
 
-## 2 Data Preparation
-Input: Wafer map dataset (images + defect labels)
-Process:
-- Normalize pixel values (0-1)
-- Handle class imbalance (oversampling / class weighting)
-- Train-test split (80/20, stratified)
-Output: Balanced training and test sets
+## 1. Problem Statement
+Classify semiconductor wafer maps into predefined defect categories to support:  
+- **Yield improvement**  
+- **Smart manufacturing (IR4.0) quality control**
 
 ---
 
-## 3 Model Design
-Model: Convolutional Neural Network (CNN)
-Architecture:
-- Conv2D → ReLU → MaxPooling
-- Conv2D → ReLU → MaxPooling
-- Flatten
-- Dense (fully connected) → Dropout
-- Output Layer (Softmax for defect classification)
+## 2. Data Preparation
+**Input:** Wafer map dataset (images + defect labels)  
+
+**Process:**
+- Normalize pixel values → `[0, 1]` range  
+- Handle class imbalance → oversampling / class weighting  
+- Train-test split → 80/20, stratified by defect type  
+
+**Output:** Balanced training and test sets
 
 ---
 
-## 4 Training
-Input: X_train, y_train
-Process:
-- Compile model (optimizer = Adam, loss = categorical crossentropy)
-- Train for N epochs with early stopping
-- Use validation set to monitor overfitting
-Output: Trained CNN model (wafer_cnn_final.h5)
+## 3. Model Design
+**Model:** Convolutional Neural Network (CNN)  
+
+**Architecture:**
+1. `Conv2D` → `ReLU` → `MaxPooling`  
+2. `Conv2D` → `ReLU` → `MaxPooling`  
+3. `Flatten`  
+4. `Dense` (fully connected) → `Dropout`  
+5. `Dense(num_classes, activation="softmax")`  
 
 ---
 
-## 5 Evaluation
-Input: X_test, y_test
-Process:
-- Predict defect class for each wafer map
-- Generate classification report:
-* Accuracy
-* Precision, Recall, F1-score
-- Plot confusion matrix
-Output: Performance metrics + visual validation
+## 4. Training
+**Input:** `X_train`, `y_train`  
+
+**Process:**
+- Compile model  
+  - Optimizer: `Adam`  
+  - Loss: `CategoricalCrossentropy`  
+- Train for *N* epochs with **EarlyStopping**  
+- Use validation set to monitor overfitting  
+
+**Output:** Trained model → `wafer_cnn_final.h5`
 
 ---
 
-## 6 Results
+## 5. Evaluation
+**Input:** `X_test`, `y_test`  
+
+**Process:**
+- Predict wafer defect class (`model.predict`)  
+- Generate **classification report**:  
+  - Accuracy  
+  - Precision, Recall, F1-score  
+- Plot **confusion matrix**  
+
+**Output:** Performance metrics + visual validation
+
+---
+
+## 6. Results
 - Achieved **~91% test accuracy**  
-- Balanced performance across defect classes  
+- Balanced performance across defect categories  
 - Visualization of sample wafer map predictions:  
 
-![sample wafer map](results/wafermap_example.png)
+<p align="center">
+  <img src="results/wafermap_example.png" width="400"/>
+  <br>
+  <em>Figure 1: Example wafer map prediction.</em>
+</p>
 
 ---
 
-## 7 Industry 4.0 Relevance
+## 7. Industry 4.0 Relevance
 - ✅ **Smart Quality Control** – Automated defect detection replaces manual inspection  
 - ✅ **Predictive Maintenance** – Detects systematic issues before yield loss  
 - ✅ **Big Data & AI** – Applies CNNs to large-scale semiconductor datasets  
@@ -66,6 +82,6 @@ Output: Performance metrics + visual validation
 
 ---
 
-## 8 Note
+## 8. Note
 ⚠️ Full dataset and production code are not shared due to confidentiality.  
-This pseudocode and results are provided for demonstration of **methodology** and **outcomes**
+This pseudocode and results are provided as a demonstration of **methodology** and **outcomes**.
