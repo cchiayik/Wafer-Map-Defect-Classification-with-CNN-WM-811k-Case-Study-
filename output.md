@@ -144,10 +144,8 @@ The results are as follows:
 - **Test Accuracy:** ~85.1%  
 - **Test Loss:** ~0.40  
 
-✅ These results are consistent with the validation performance observed across the K-Fold experiments,  
-where validation accuracy typically stabilized between **75–85%**.  
-
-⚖️ The close alignment between validation and test performance suggests that the model is **generalizing well**  
+These results are consistent with the validation performance observed across the K-Fold experiments,  
+where validation accuracy typically stabilized between **75–85%**. The close alignment between validation and test performance suggests that the model is **generalizing well**  
 without severe overfitting, making it a reliable candidate for downstream use.
 
 ---
