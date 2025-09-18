@@ -19,7 +19,7 @@ Applied class balancing strategies (weighted loss, smoothing) to address dataset
 
 Achieved ~85% validation accuracy with strong generalization performance.
 
-## 🔑 Key Highlights
+##  Key Highlights
 
 - **Dataset**: WM-811k (semiconductor wafer map defect dataset)  
 - **Approach**: Convolutional Neural Network (CNN) implemented in Keras/TensorFlow  
@@ -141,12 +141,12 @@ This repository serves as a **portfolio case study** to demonstrate applied ML m
 ---
 
 ## 🌐 Industry 4.0 Relevance
-- ✅ AI-driven **quality control**  
-- ✅ **Big Data + Deep Learning** for manufacturing analytics  
-- ✅ **Automation** of defect classification  
-- ✅ Supports **yield improvement** and **predictive maintenance**
+-  AI-driven **quality control**  
+-  **Big Data + Deep Learning** for manufacturing analytics  
+-  **Automation** of defect classification  
+-  Supports **yield improvement** and **predictive maintenance**
 
 ---
 
-👨‍💻 Author: Chew Chia Yik  
+ Author: Chew Chia Yik  
 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/chew-chia-yik/)  
