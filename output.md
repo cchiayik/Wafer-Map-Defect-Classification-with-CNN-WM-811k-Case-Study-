@@ -114,13 +114,13 @@ Model performs well overall, but minority classes need **data augmentation** or 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f1e4d672-cd57-4c0b-84c6-7fed5e59b62b" width="700" />
   <br>
-  <em>Figure 8: Validation accuracy across folds.</em>
+  <em>Figure 8: Validation Accuracy Plot [left] and Validation Loss Plot [right].</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/33509e5e-2127-46e5-818b-918bf67ab339" width="600" />
   <br>
-  <em>Figure 9: Validation loss across folds.</em>
+  <em>Figure 9: Validation accuracy and loss across folds.</em>
 </p>
 
 **Observations**  
