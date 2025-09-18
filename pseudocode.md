@@ -1,12 +1,12 @@
- 📘 Pseudocode: Wafer Defect Detection using CNN
+## Pseudocode: Wafer Defect Detection using CNN
 
-## 1️⃣ Problem Statement
+## 1 Problem Statement
 Classify semiconductor wafer maps into defect categories to support **yield improvement**  
 and **smart manufacturing (IR4.0)** quality control.
 
 ---
 
-## 2️⃣ Data Preparation
+## 2 Data Preparation
 Input: Wafer map dataset (images + defect labels)
 Process:
 - Normalize pixel values (0-1)
@@ -16,7 +16,7 @@ Output: Balanced training and test sets
 
 ---
 
-## 3️⃣ Model Design
+## 3 Model Design
 Model: Convolutional Neural Network (CNN)
 Architecture:
 - Conv2D → ReLU → MaxPooling
@@ -27,7 +27,7 @@ Architecture:
 
 ---
 
-## 4️⃣ Training
+## 4 Training
 Input: X_train, y_train
 Process:
 - Compile model (optimizer = Adam, loss = categorical crossentropy)
@@ -37,7 +37,7 @@ Output: Trained CNN model (wafer_cnn_final.h5)
 
 ---
 
-## 5️⃣ Evaluation
+## 5 Evaluation
 Input: X_test, y_test
 Process:
 - Predict defect class for each wafer map
@@ -49,7 +49,7 @@ Output: Performance metrics + visual validation
 
 ---
 
-## 6️⃣ Results
+## 6 Results
 - Achieved **~91% test accuracy**  
 - Balanced performance across defect classes  
 - Visualization of sample wafer map predictions:  
@@ -58,7 +58,7 @@ Output: Performance metrics + visual validation
 
 ---
 
-## 7️⃣ Industry 4.0 Relevance
+## 7 Industry 4.0 Relevance
 - ✅ **Smart Quality Control** – Automated defect detection replaces manual inspection  
 - ✅ **Predictive Maintenance** – Detects systematic issues before yield loss  
 - ✅ **Big Data & AI** – Applies CNNs to large-scale semiconductor datasets  
@@ -66,6 +66,6 @@ Output: Performance metrics + visual validation
 
 ---
 
-## 8️⃣ Note
+## 8 Note
 ⚠️ Full dataset and production code are not shared due to confidentiality.  
 This pseudocode and results are provided for demonstration of **methodology** and **outcomes**
