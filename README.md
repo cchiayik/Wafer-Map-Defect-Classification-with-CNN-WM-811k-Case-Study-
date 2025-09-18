@@ -5,7 +5,7 @@ This project explores the use of Convolutional Neural Networks (CNNs) for semico
 
 Defect pattern recognition is critical in semiconductor manufacturing for improving yield analysis and fault detection. By leveraging deep learning, we aim to automatically classify wafer maps into multiple defect categories, reducing reliance on manual inspection.
 
-## 📖 Repository Contents
+## 📖 Repository Contents (CLICK the link HERE to access the file)
 - [`README.md`](https://github.com/cchiayik/Wafer-Map-Defect-Classification-with-CNN-WM-811k-Case-Study-/blob/main/README.md) → Project summary (this file)  
 - [`pseudocode.md`](https://github.com/cchiayik/Wafer-Map-Defect-Classification-with-CNN-WM-811k-Case-Study-/blob/main/pseudocode.md) → Step-by-step workflow without exposing full code  
 - [`output.md`](https://github.com/cchiayik/Wafer-Map-Defect-Classification-with-CNN-WM-811k-Case-Study-/blob/main/output.md) → Key visual outputs (graphs, heatmaps, sample wafer maps)
