@@ -90,7 +90,7 @@ Generate classification report & confusion matrix.
 
 Compare fold results for stability and generalization.
 
-## 📊 Results & Insights
+##  Results & Insights
 Training Curves
 
 Training accuracy steadily improves, with validation accuracy stabilizing around 85%.
@@ -105,7 +105,7 @@ Minor classes like Random, Scratch, and Near-Full show higher misclassification 
 
 Future work: Data augmentation and rebalancing techniques may further improve rare class recognition.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 Languages: Python
 
@@ -115,7 +115,7 @@ Libraries: NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn
 
 Environment: Kaggle GPU runtime
 
-## 📈 Recommendations
+##  Recommendations
 
 Data Augmentation: Improve representation of rare defect types.
 
@@ -142,7 +142,7 @@ This repository serves as a **portfolio case study** to demonstrate applied ML m
 
 ---
 
-## 🌐 Industry 4.0 Relevance
+##  Industry 4.0 Relevance
 -  AI-driven **quality control**  
 -  **Big Data + Deep Learning** for manufacturing analytics  
 -  **Automation** of defect classification  
