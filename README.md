@@ -127,9 +127,10 @@ The dataset originates from the publicly available WM-811k dataset.
 Full code is not released due to industrial sensitivity and potential IP considerations.
 
 ## 📖 Repository Contents
-- `README.md` → Project summary (this file)  
-- `pseudocode.md` → Step-by-step workflow without exposing full code  
-- `results/` → Key visual outputs (graphs, heatmaps, sample wafer maps)  
+- [`README.md`](https://github.com/cchiayik/Wafer-Map-Defect-Classification-with-CNN-WM-811k-Case-Study-/blob/main/README.md) → Project summary (this file)  
+- [`pseudocode.md`](https://github.com/cchiayik/Wafer-Map-Defect-Classification-with-CNN-WM-811k-Case-Study-/blob/main/pseudocode.md) → Step-by-step workflow without exposing full code  
+- [`output.md`](https://github.com/cchiayik/Wafer-Map-Defect-Classification-with-CNN-WM-811k-Case-Study-/blob/main/output.md) → Key visual outputs (graphs, heatmaps, sample wafer maps)  
+
 
 ---
 
