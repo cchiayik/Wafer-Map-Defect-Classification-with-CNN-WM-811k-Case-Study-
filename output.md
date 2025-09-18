@@ -3,11 +3,17 @@
 ## Wafer Index Distribution
 From this Wafer Index distribution plot, the number of wafer map as of Wafer Index is not the same. 
 Indicate not all lot has exact 25 wafer maps which may caused by sensor failure or other unknown problems.
-<img width="419" height="415" alt="download" src="https://github.com/user-attachments/assets/c2ddc0a2-ae52-4480-94c3-cc7f9a8b8bf4" />
+<p align="center">
+  <img width="419" height="415" alt="download" src="https://github.com/user-attachments/assets/c2ddc0a2-ae52-4480-94c3-cc7f9a8b8bf4" />
 ## Pie Chart for Labelling Portion of Wafer Failure Type
 From the plotted pie chart, a significant portion of the wafer failure type (78.7%) is not labelled.
 
 <img width="855" height="451" alt="download" src="https://github.com/user-attachments/assets/e89a0a9e-d2b6-48d7-be3f-fe73e699c211" />
+
+
+From this bar chart, it is clear this dataset is imbalanced, with the most failure type being the edge-ring. While Donut, Random, Scratch and Near-full (most rare) are significantly small portions. This imbalanced dataset might cause inaccuracy in the model, and the CNN will be biased toward the most common data (Edge-Ring) while neglecting the less common failure type (such as Near-full).
+
+
 <img width="1001" height="375" alt="download" src="https://github.com/user-attachments/assets/629ba103-e71b-4be0-bc63-f4ac8749a88f" />
 <img width="797" height="701" alt="download" src="https://github.com/user-attachments/assets/9f97b2a1-9766-485a-a2dd-e3af3cff3e74" />
 ## Confusion Matrix Analysis
