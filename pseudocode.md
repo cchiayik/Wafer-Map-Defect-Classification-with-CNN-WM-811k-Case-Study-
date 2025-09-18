@@ -1,4 +1,4 @@
-# 📘 Pseudocode: Wafer Defect Detection using CNN
+#  Pseudocode: Wafer Defect Detection using CNN
 
 ---
 
@@ -62,26 +62,11 @@ Classify semiconductor wafer maps into predefined defect categories to support:
 ---
 
 ## 6. Results
-- Achieved **~91% test accuracy**  
+- Achieved **~82% test accuracy**  
 - Balanced performance across defect categories  
 - Visualization of sample wafer map predictions:  
 
-<p align="center">
-  <img src="results/wafermap_example.png" width="400"/>
-  <br>
-  <em>Figure 1: Example wafer map prediction.</em>
-</p>
 
----
-
-## 7. Industry 4.0 Relevance
-- ✅ **Smart Quality Control** – Automated defect detection replaces manual inspection  
-- ✅ **Predictive Maintenance** – Detects systematic issues before yield loss  
-- ✅ **Big Data & AI** – Applies CNNs to large-scale semiconductor datasets  
-- ✅ **Scalability** – Framework adaptable to other manufacturing analytics  
-
----
-
-## 8. Note
+## 7. Note
 ⚠️ Full dataset and production code are not shared due to confidentiality.  
 This pseudocode and results are provided as a demonstration of **methodology** and **outcomes**.
